@@ -1,0 +1,21 @@
+
+/*nesting*/
+
+@import 'base/globales';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/utilidades';
+@import 'base/normalize';
+@import 'base/botones';
+
+/*ui*/
+@import 'sections/header';
+@import 'sections/navegacion';
+@import 'sections/iconos';
+@import './sections/anuncios';
+@import './sections/contactar';
+@import './sections/nosotros';
+@import './sections/formulario';
+
+
+

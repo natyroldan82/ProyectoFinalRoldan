@@ -1,0 +1,35 @@
+
+.header{
+    background-color: $gris-oscuro;
+    height:20rem ;
+  
+      
+   }
+   
+  .col-md-4{
+      img{
+          width: 50%;}
+          h5{
+              font-size: 2.5rem;
+          }
+  }  
+ .card{
+     text-align: center;
+     margin: 2rem 0;
+ }   
+
+  
+.contenedor.seccion{
+    h1,h2{
+        color:$verde;
+        font-weight: $bold;
+        font-family: $font;
+        margin: 3rem 0;
+    }
+    p{
+        font-family: $font;
+        text-align: justify;
+        padding: 5rem 5rem;
+    }
+}
+

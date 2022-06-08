@@ -1,0 +1,43 @@
+@include tablet{
+    .contenedor-anuncios{
+         @include grid(3, 2rem);
+         
+         }
+         
+         
+        } 
+
+
+.anuncio{
+     background-color: lighten($gris-claro,5);
+     border: 2px solid lighten($gris-claro, 5);
+     font-family: $font;
+     padding: 2rem;
+    
+         }
+        
+
+
+h3, p{
+   
+    text-align: center;
+}  
+.seccion {
+    h2{
+        text-align: center;
+        padding: 3rem;
+       
+} }
+.precio{
+    color: $amarillo;
+    font-weight: $bold;
+    font-size: 3rem;
+}
+.btn{
+    color: $verde;
+    border-radius: 1rem;
+}  
+h2{
+    text-align: center;
+    padding: 3rem;
+}

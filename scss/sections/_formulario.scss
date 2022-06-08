@@ -1,0 +1,52 @@
+@include tablet{
+.contenedor-formulario {
+   
+    @include grid(2,5rem);
+    
+    padding: 5rem  ;
+    
+    }
+    
+}
+.ubicacion{
+    
+    grid-column: 2/3;
+    padding-bottom: 5rem;
+}
+
+.formulario{
+    background-color: $gris-claro;
+    max-width: 100%;
+    font-family: $font;
+ 
+   
+    p {
+        font-size: 1.4rem;
+        color:$gris-oscuro;
+        margin: 2rem 0 0 0;}
+     legend{
+         font-size: 2rem;
+         color: $gris-oscuro;
+         font-weight: $bold;
+         font-family: $font;
+     }   
+     label{
+        font-weight: $bold;
+        text-transform: uppercase;
+        margin: 0.5rem;
+       
+        
+     }
+    input:not([type="submit"]){
+       
+        padding: 1.5rem;
+        width: 100%;
+        background-color: $blanco;
+        border: 1px solid $gris-claro;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+     }
+    }
+    h2,h1{font-family: $font;
+        font-weight: $bold;
+        color:$verde}

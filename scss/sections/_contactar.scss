@@ -1,0 +1,42 @@
+.id {
+    background-image: url(../assets/img/encuentra.jpg);
+    padding: 1rem 0 5rem 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+
+
+.imagen-contacto{
+    background-position: center center;
+    background-size: cover;
+    padding: 10rem 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   h2{
+       font-size: 3rem;
+       font-weight:$bold;
+       color:$blanco;
+       font-family: $font;
+   }
+   span{
+       color: $verde;
+   }
+   p{
+       font-size: 2rem;
+       color: $blanco;
+   }
+   .btn{
+       background-color: $gris-oscuro;
+        color: $amarillo;
+        font-size: 2rem;
+        font-weight: $bold;
+        border-radius: 1rem;
+        
+     }
+     
+}
+
+ 
